@@ -21,6 +21,8 @@ import ErrorBoundary from '@/components/ErrorBoundary';
 import { I18nProvider } from '@/context/I18nContext';
 // Wallet auth context — Issue #1208
 import { WalletProvider } from '@/context/WalletContext';
+// Route protection redirect-back — Issue #1500
+import ReturnUrlHandler from '@/components/ReturnUrlHandler';
 
 export const metadata: Metadata = {
   title: "Handsoff",
